@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="../../../../../../img/clover.ico" />
+
+    <link rel="stylesheet" href="../../../../../../aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="../../../../../../aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="../../../../../../aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('../../../../../../style.css');
+        @import url('../../../../../../jstree/jstree.styles.css');
+        @import url('../../../../../../tree.css');
+        
+    </style>
+
+    <script src="../../../../../../jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../../../../../../jstree/jstree.min.js" type="text/javascript"></script>
+    <script src="../../../../../../aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="../../../../../../aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="../../../../../../aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="../../../../../../package-nodes-tree.js" type="text/javascript"></script>
+    <script src="../../../../../../clover.js" type="text/javascript"></script>
+    <script src="../../../../../../cloud.js" type="text/javascript"></script>
+    <script src="../../../../../../help.js" type="text/javascript"></script>
+    <script src="../../../../../../overlibmws.js" type="text/javascript"><!-- overLIB (c) Erik Bosrup --></script>
+    <script src="../../../../../../overlibmws_shadow.js" type="text/javascript"></script>
+    <script src="../../../../../../sorttable.js" type="text/javascript"></script>
+    <script src="../../../../../../utils.js" type="text/javascript"></script>
+
+            <title>c2c-common 0.0.3</title>
+    </head>
+
+<body>
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://www.atlassian.com/clover" title="Open Atlassian Clover home page"><span class="aui-header-logo-device">Clover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online Clover documentation" target="_blank"
+                           href="https://confluence.atlassian.com/display/CLOVER/Clover+Documentation+Home">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                    <a href="http://www.cgi.com.se" target="_top">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="../../../../../../img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+                    </a>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                            <a href="http://www.cgi.com.se" target="_top">
+                                        c2c-common 0.0.3
+                                        </a>
+                    </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="">
+                    <a href="../../../../../../dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <ul class="aui-nav project-packages">
+            <li>
+                <form method="get" action="#" class="aui package-filter-container">
+                    <input type="text" autocomplete="off" class="package-filter text" placeholder="Type and press enter to filter packages..." name="package-filter" id="package-filter" title="Type package name (or part of it) and press enter"/>
+                </form>
+                <p class="package-filter-message package-filter-search-message hidden">
+                    <small>Searching...</small>
+                </p>
+                <p class="package-filter-message package-filter-results-message hidden">
+                    <small><span class="package-filter-results-total">1234</span> <span class="package-filter-results-word">results</span> found.</small>
+                </p>
+                <p class="package-filter-message package-filter-no-results-message hidden">
+                    <small>No results found.</small>
+                </p>
+                <p class="package-filter-message package-filter-partial-results-message hidden">
+                    <small>Showing first <span class="package-filter-results-number">24</span> of
+                        <span class="package-filter-results-total">1234</span> results.</small>
+                </p>
+            </li>
+                                                <div class="packages-tree-wrapper" data-root-relative="../../../../../../" data-package-name="org.certificateservices.custom.c2x.its.crypto">
+                <div class="packages-tree-container"></div>
+                <div class="packages-tree-lozenges"></div>
+            </div>
+        </ul>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+
+                    
+                    <div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs">
+    
+    <li><a href="../../../../../../dashboard.html"> Project Clover database Fri Dec 19 2014 16:45:35 CET</a></li>
+     <li><a href="test-pkg-summary.html">Package org.certificateservices.custom.c2x.its.crypto</a></li>
+</ol></div>
+    
+<h1 class="aui-h2-clover">
+            
+        Class DefaultCryptoManagerSpec
+    </h1>
+
+
+ 
+<div class="aui-tabs horizontal-tabs" id="tabs-file">
+    <ul class="tabs-menu">
+        <li class="menu-item">
+            <a href="DefaultCryptoManagerSpec.html"><strong>Source file</strong></a>
+        </li>
+        <li class="menu-item active-tab">
+            <a href="#tabs-file-test-results"><strong>Test results</strong></a>
+        </li>
+    </ul>
+    <div class="tabs-pane aui-tabs-pane-100-pcnt active-pane" id="tabs-file-test-results">
+        <div>&#160;</div>
+
+
+
+
+<table id="testClassSummaryTable" class="aui">
+<thead>
+    <tr>
+        <th width="40%"><label>Class</label></th>
+        <th width="10%"><label title="Total number of tests (or test iterations) executed.">Tests</label></th>
+        <th width="10%"><label title="Number of failed tests">Fail</label></th>
+        <th width="10%"><label title="Number of test errors">Error</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="20%"><label>% Tests Success</label></th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>DefaultCryptoManagerSpec</td>
+        <td class="testPasses"><span class="sortValue">31</span>31</td>
+<td class=""><span class="sortValue">0</span>0</td>
+<td class=""><span class="sortValue">0</span>0</td>
+        <td>0.127</td>
+        <td class="align-middle">
+            
+
+<div style="display: table; width: 100%">
+            <div class="barGraphValue"><span class="sortValue">1.0</span>100%</div>         <div style="display: table-cell">
+            
+            <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+                <div title="100% of tests passed&lt;br/&gt;0% of tests failed" class="testBarFail" style="width: 100%"><div class="testBarPass" style="width: 100%"></div></div>
+            </div>
+        </div>
+    </div>        </td>
+    </tr>
+</tbody>
+</table>
+
+<div>&#160;</div>
+
+<table id="testClassTestsTable" class="aui aui-table-sortable">
+<thead>
+    <tr>
+        <th width="40%">
+            <label title="Tests (or test iterations) which were executed.">Tests</label>
+        </th>
+        <th width="10%"><label>Started</label></th>
+        <th width="10%"><label>Status</label></th>
+        <th width="10%">
+            <label title="The total time in seconds taken to run this set of tests.">Time (secs)</label>
+        </th>
+        <th width="30%"><label>Message</label></th>
+    </tr>
+</thead>
+<tbody>
+
+
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType x_coordinate_only</span><a href="DefaultCryptoManagerSpec_Verify_calculateSignatureLength_for_public_algorithm_ecdsa_nistp256_with_sha256_and_R_EccPointType_x_coordinate_only_6m.html">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType x_coordinate_only</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941388</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify digest generates a correct digest for algorithm: ecdsa_nistp256_with_sha256</span><a href="DefaultCryptoManagerSpec_Verify_digest_generates_a_correct_digest_for_algorithm__ecdsa_nistp256_with_sha256_6p.html">DefaultCryptoManagerSpec.Verify digest generates a correct digest for algorithm: ecdsa_nistp256_with_sha256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941366</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that getECCurve getECParameterSpec returns curve with name: P-256 for public key algorithm: ecies_nistp256</span><a href="DefaultCryptoManagerSpec_Verify_that_getECCurve_getECParameterSpec_returns_curve_with_name__P_256_for_public_key_algorithm__ecies_nistp256_74.html">DefaultCryptoManagerSpec.Verify that getECCurve getECParameterSpec returns curve with name: P-256 for public key algorithm: ecies_nistp256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941382</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that getECCurve getECParameterSpec returns curve with name: P-256 for public key algorithm: ecdsa_nistp256_with_sha256</span><a href="DefaultCryptoManagerSpec_Verify_that_getECCurve_getECParameterSpec_returns_curve_with_name__P_256_for_public_key_algorithm__ecdsa_nistp256_with_sha256_3t.html">DefaultCryptoManagerSpec.Verify that getECCurve getECParameterSpec returns curve with name: P-256 for public key algorithm: ecdsa_nistp256_with_sha256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941379</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0.002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify getVerificationKey</span><a href="DefaultCryptoManagerSpec_Verify_getVerificationKey_7p.html">DefaultCryptoManagerSpec.Verify getVerificationKey</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941368</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0.002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify findSignatureInMessage returns first found signature trailer field</span><a href="DefaultCryptoManagerSpec_Verify_findSignatureInMessage_returns_first_found_signature_trailer_field_9i.html">DefaultCryptoManagerSpec.Verify findSignatureInMessage returns first found signature trailer field</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941405</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with compressed_lsb_y_1 ecc point</span><a href="DefaultCryptoManagerSpec_Verify_serializeTotalSignedTrailerLength_calculates_signature_trailing_fields_correctly_signature_trailer_field_with_compressed_lsb_y_1_ecc_point_3b.html">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with compressed_lsb_y_1 ecc point</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941398</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Test to generate ECDSA Signature and then verify the signature for algorithm: ecdsa_nistp256_with_sha256</span><a href="DefaultCryptoManagerSpec_Test_to_generate_ECDSA_Signature_and_then_verify_the_signature_for_algorithm__ecdsa_nistp256_with_sha256_3a.html">DefaultCryptoManagerSpec.Test to generate ECDSA Signature and then verify the signature for algorithm: ecdsa_nistp256_with_sha256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941275</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.016</span>0.016</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify serializeTotalPayload calculates signature payload fields correctly</span><a href="DefaultCryptoManagerSpec_Verify_serializeTotalPayload_calculates_signature_payload_fields_correctly_61.html">DefaultCryptoManagerSpec.Verify serializeTotalPayload calculates signature payload fields correctly</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941402</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that decodeEccPoint decodes the EccPoints correctly for public key scheme: ecies_nistp256</span><a href="DefaultCryptoManagerSpec_Verify_that_decodeEccPoint_decodes_the_EccPoints_correctly_for_public_key_scheme__ecies_nistp256_89.html">DefaultCryptoManagerSpec.Verify that decodeEccPoint decodes the EccPoints correctly for public key scheme: ecies_nistp256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941364</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that serializeCertWithoutSignature encodes the certificate without the signature correcly</span><a href="DefaultCryptoManagerSpec_Verify_that_serializeCertWithoutSignature_encodes_the_certificate_without_the_signature_correcly_7l.html">DefaultCryptoManagerSpec.Verify that serializeCertWithoutSignature encodes the certificate without the signature correcly</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941371</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that convertECPublicKeyToBCECPublicKey supports both BC and SUN Public keys</span><a href="DefaultCryptoManagerSpec_Verify_that_convertECPublicKeyToBCECPublicKey_supports_both_BC_and_SUN_Public_keys_9t.html">DefaultCryptoManagerSpec.Verify that convertECPublicKeyToBCECPublicKey supports both BC and SUN Public keys</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941384</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.003</span>0.003</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify SignSecuredMessage using signer info type: certificate_digest_with_ecdsap256 generates a valid signature and that verifySecuredMessage can verify it.</span><a href="DefaultCryptoManagerSpec_Verify_SignSecuredMessage_using_signer_info_type__certificate_digest_with_ecdsap256_generates_a_valid_signature_and_that_verifySecuredMessage_can_verify_it__4t.html">DefaultCryptoManagerSpec.Verify SignSecuredMessage using signer info type: certificate_digest_with_ecdsap256 generates a valid signature and that verifySecuredMessage can verify it.</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941423</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.01</span>0.01</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with uncompressed ecc point</span><a href="DefaultCryptoManagerSpec_Verify_serializeTotalSignedTrailerLength_calculates_signature_trailing_fields_correctly_signature_trailer_field_with_uncompressed_ecc_point_2c.html">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with uncompressed ecc point</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941401</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with x_coordinate_only ecc point</span><a href="DefaultCryptoManagerSpec_Verify_serializeTotalSignedTrailerLength_calculates_signature_trailing_fields_correctly_signature_trailer_field_with_x_coordinate_only_ecc_point_20.html">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with x_coordinate_only ecc point</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941397</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify SignSecuredMessage using signer info type: certificate generates a valid signature and that verifySecuredMessage can verify it.</span><a href="DefaultCryptoManagerSpec_Verify_SignSecuredMessage_using_signer_info_type__certificate_generates_a_valid_signature_and_that_verifySecuredMessage_can_verify_it__1u.html">DefaultCryptoManagerSpec.Verify SignSecuredMessage using signer info type: certificate generates a valid signature and that verifySecuredMessage can verify it.</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941409</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.012</span>0.012</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.verify that generateKeyPair generates new keypairs for algorithm: ecies_nistp256</span><a href="DefaultCryptoManagerSpec_verify_that_generateKeyPair_generates_new_keypairs_for_algorithm__ecies_nistp256_5t.html">DefaultCryptoManagerSpec.verify that generateKeyPair generates new keypairs for algorithm: ecies_nistp256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941327</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0.002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that serializeDataToBeSignedInSecuredMessage serializes according to signature verification it ETSI specifification</span><a href="DefaultCryptoManagerSpec_Verify_that_serializeDataToBeSignedInSecuredMessage_serializes_according_to_signature_verification_it_ETSI_specifification_82.html">DefaultCryptoManagerSpec.Verify that serializeDataToBeSignedInSecuredMessage serializes according to signature verification it ETSI specifification</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941406</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0.002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType compressed_lsb_y_0</span><a href="DefaultCryptoManagerSpec_Verify_calculateSignatureLength_for_public_algorithm_ecdsa_nistp256_with_sha256_and_R_EccPointType_compressed_lsb_y_0_16.html">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType compressed_lsb_y_0</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941392</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Test to verifyCertificate</span><a href="DefaultCryptoManagerSpec_Test_to_verifyCertificate_26.html">DefaultCryptoManagerSpec.Test to verifyCertificate</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941292</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.031</span>0.031</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that decodeEccPoint decodes the EccPoints correctly for public key scheme: ecdsa_nistp256_with_sha256</span><a href="DefaultCryptoManagerSpec_Verify_that_decodeEccPoint_decodes_the_EccPoints_correctly_for_public_key_scheme__ecdsa_nistp256_with_sha256_69.html">DefaultCryptoManagerSpec.Verify that decodeEccPoint decodes the EccPoints correctly for public key scheme: ecdsa_nistp256_with_sha256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941361</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0.002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify findSignatureInMessage throws exception if no signature element was found.</span><a href="DefaultCryptoManagerSpec_Verify_findSignatureInMessage_throws_exception_if_no_signature_element_was_found__0.html">DefaultCryptoManagerSpec.Verify findSignatureInMessage throws exception if no signature element was found.</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941403</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that getECCurve returns correct curve</span><a href="DefaultCryptoManagerSpec_Verify_that_getECCurve_returns_correct_curve_8y.html">DefaultCryptoManagerSpec.Verify that getECCurve returns correct curve</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941373</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.005</span>0.005</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that encodeEccPoint encodes ec public keys properly for algorithm: ecdsa_nistp256_with_sha256</span><a href="DefaultCryptoManagerSpec_Verify_that_encodeEccPoint_encodes_ec_public_keys_properly_for_algorithm__ecdsa_nistp256_with_sha256_57.html">DefaultCryptoManagerSpec.Verify that encodeEccPoint encodes ec public keys properly for algorithm: ecdsa_nistp256_with_sha256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941330</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.013</span>0.013</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with compressed_lsb_y_0 ecc point</span><a href="DefaultCryptoManagerSpec_Verify_serializeTotalSignedTrailerLength_calculates_signature_trailing_fields_correctly_signature_trailer_field_with_compressed_lsb_y_0_ecc_point_1p.html">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly signature trailer field with compressed_lsb_y_0 ecc point</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941400</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly no signature trailer field</span><a href="DefaultCryptoManagerSpec_Verify_serializeTotalSignedTrailerLength_calculates_signature_trailing_fields_correctly_no_signature_trailer_field_1z.html">DefaultCryptoManagerSpec.Verify serializeTotalSignedTrailerLength calculates signature trailing fields correctly no signature trailer field</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941396</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType uncompressed</span><a href="DefaultCryptoManagerSpec_Verify_calculateSignatureLength_for_public_algorithm_ecdsa_nistp256_with_sha256_and_R_EccPointType_uncompressed_1e.html">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType uncompressed</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941393</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.0</span>0</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType compressed_lsb_y_1</span><a href="DefaultCryptoManagerSpec_Verify_calculateSignatureLength_for_public_algorithm_ecdsa_nistp256_with_sha256_and_R_EccPointType_compressed_lsb_y_1_84.html">DefaultCryptoManagerSpec.Verify calculateSignatureLength for public algorithm ecdsa_nistp256_with_sha256 and R EccPointType compressed_lsb_y_1</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941390</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.verify that generateKeyPair generates new keypairs for algorithm: ecdsa_nistp256_with_sha256</span><a href="DefaultCryptoManagerSpec_verify_that_generateKeyPair_generates_new_keypairs_for_algorithm__ecdsa_nistp256_with_sha256_9m.html">DefaultCryptoManagerSpec.verify that generateKeyPair generates new keypairs for algorithm: ecdsa_nistp256_with_sha256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941324</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.002</span>0.002</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify that encodeEccPoint encodes ec public keys properly for algorithm: ecies_nistp256</span><a href="DefaultCryptoManagerSpec_Verify_that_encodeEccPoint_encodes_ec_public_keys_properly_for_algorithm__ecies_nistp256_42.html">DefaultCryptoManagerSpec.Verify that encodeEccPoint encodes ec public keys properly for algorithm: ecies_nistp256</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941344</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.016</span>0.016</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+<tr>
+    <td><span class="sortValue">DefaultCryptoManagerSpec.Verify calculateSignatureLength throws exception for #pubAlg</span><a href="DefaultCryptoManagerSpec_Verify_calculateSignatureLength_throws_exception_for__pubAlg_aw.html">DefaultCryptoManagerSpec.Verify calculateSignatureLength throws exception for #pubAlg</a></td>
+    <td style="whitespace:nowrap;"><span class="sortValue">1419003941394</span>19 Dec 16:45:41</td>
+    <td>      <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+  </td>
+    <td><span class="sortValue">0.001</span>0.001</td>
+    <td style="width:50%">
+     &#160;     </td>
+</tr>
+
+    </tbody>
+</table>
+
+    </div> <!-- tabs-pane -->
+</div> <!-- aui-tabs horizontal-tabs -->
+
+                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+
+        <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://www.atlassian.com/software/clover">Atlassian Clover</a> v 4.0.1
+                on Fri Dec 19 2014 16:46:26 CET using coverage data from Fri Dec 19 2014 16:45:45 CET.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover: Commercial License registered to CGI Sverige AB. </li>
+        </ul>
+        <div id="footer-logo">
+            <a target="_blank" href="http://www.atlassian.com/">
+                Atlassian
+            </a>
+        </div>
+    </section>
+</footer>
+    </div> <!-- id="page" -->
+</body>
+</html>

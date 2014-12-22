@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":61,"id":3920,"methods":[{"el":45,"sc":2,"sl":32},{"el":59,"sc":2,"sl":47}],"name":"RegionTypeSpec","sl":30}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_104":{"methods":[{"sl":47}],"name":"Verify that RegionType.getByValue returns rectangle for 2","pass":true,"statements":[{"sl":50}]},"test_126":{"methods":[{"sl":32}],"name":"Verify that id has bytevalue 4","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_132":{"methods":[{"sl":32}],"name":"Verify that polygon has bytevalue 3","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_166":{"methods":[{"sl":32}],"name":"Verify that circle has bytevalue 1","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_299":{"methods":[{"sl":32}],"name":"Verify that rectangle has bytevalue 2","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_313":{"methods":[{"sl":47}],"name":"Verify that RegionType.getByValue returns polygon for 3","pass":true,"statements":[{"sl":50}]},"test_336":{"methods":[{"sl":32}],"name":"Verify that none has bytevalue 0","pass":true,"statements":[{"sl":35},{"sl":36}]},"test_34":{"methods":[{"sl":47}],"name":"Verify that RegionType.getByValue returns circle for 1","pass":true,"statements":[{"sl":50}]},"test_393":{"methods":[{"sl":47}],"name":"Verify that RegionType.getByValue returns none for 0","pass":true,"statements":[{"sl":50}]},"test_91":{"methods":[{"sl":47}],"name":"Verify that RegionType.getByValue returns id for 4","pass":true,"statements":[{"sl":50}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [166, 126, 299, 336, 132], [], [], [166, 126, 299, 336, 132], [166, 126, 299, 336, 132], [], [], [], [], [], [], [], [], [], [], [104, 313, 91, 393, 34], [], [], [104, 313, 91, 393, 34], [], [], [], [], [], [], [], [], [], [], []]
